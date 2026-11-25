@@ -1,0 +1,13 @@
+.wardrobe-page{
+    height: 100%;
+    .card-box{
+        height: calc(100vh - 200px);
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        .cloth-card{
+            margin: 10px 5px;
+        }
+
+    }
+}

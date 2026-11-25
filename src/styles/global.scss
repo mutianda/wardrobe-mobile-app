@@ -1,0 +1,18 @@
+// 全局scss变量，适配你截图的米色风格
+$color-bg: #f8f5ee;
+$color-primary: #2c2824;
+$color-text: #333;
+$color-text-weak: #666;
+:root:root {
+  --adm-color-primary: #a062d4;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  background-color: $color-bg;
+  color: $color-text;
+  font-size: 14px;
+}
